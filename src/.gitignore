@@ -4,3 +4,27 @@ y.tab.c
 y.tab.h
 *.o
 *.d
+
+# Compiled BookSim files
+*.o
+*.d
+src/booksim
+
+# Generated files
+__pycache__/
+*.py[cod]
+src/*.log
+
+# Local backups and downloaded kit
+src/backups/
+src/booksim_kit*.zip
+
+# Generated files
+*.o
+*.d
+booksim
+__pycache__/
+*.py[cod]
+*.log
+backups/
+booksim_kit*.zip

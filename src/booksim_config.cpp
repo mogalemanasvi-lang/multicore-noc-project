@@ -189,6 +189,7 @@ BookSimConfig::BookSimConfig( )
   _int_map["max_outstanding_requests"] = 0; // 0 = unlimited
 
   // Use read/write request reply scheme
+  _int_map["tcaxy_threshold"] = 0;   // TCAXY: credits XY must exceed YX by to switch
   _int_map["use_read_write"] = 0;
   AddStrField("use_read_write", ""); // workaraound to allow for vector specification
   _float_map["write_fraction"] = 0.5;
